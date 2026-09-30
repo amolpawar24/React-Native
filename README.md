@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React Native
 
 A structured learning repository for **React Native** focused on building cross-platform mobile applications using **JavaScript, React, and React Native**.
