@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Native
 
 A structured learning repository for **React Native** focused on building cross-platform mobile applications using **JavaScript, React, and React Native**.
@@ -1026,3 +1027,7 @@ It will be continuously updated as new concepts, examples, and projects are comp
 ## 📄 License
 
 This repository is intended primarily for learning and educational purposes.
+=======
+# React-Native
+React Native learning repository covering mobile app development, components, navigation, styling, APIs, state management, and practical projects.
+>>>>>>> 93f51755ab772b5c751ccc6c7d5e6302ec7f8b2b
