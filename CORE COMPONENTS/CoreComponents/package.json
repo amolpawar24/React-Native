@@ -1,7 +1,7 @@
 {
   "name": "corecomponents",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.jsx",
   "dependencies": {
     "expo": "~57.0.26",
     "expo-status-bar": "~57.0.1",
