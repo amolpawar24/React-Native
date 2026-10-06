@@ -5,6 +5,13 @@ import TextExample2 from './components/Text/TextExample2';
 import TextExample3 from './components/Text/TextExample3';
 import ImageExample1 from './components/Image/ImageExample1';
 import ImageExample2 from './components/Image/ImageExample2';
+import ImageCenter from './components/Image/Image-Center';
+import ImageContain from './components/Image/Image-Contain';
+import ImageCover from './components/Image/Image-Cover';
+import ImageNone from './components/Image/Image-None';
+import ImageRepeat from './components/Image/Image-Repeat';
+import ImageStretch from './components/Image/Image-Stretch';
+import ImageBackground1 from './components/ImageBackground/ImageBackground1';
 
 export default function App() {
   return (
@@ -24,7 +31,17 @@ export default function App() {
         {/* 3.1. image without View Component */}
         {/* <ImageExample1/> */}
         {/* 3.2. image with View Component */}
-        <ImageExample2/>
+        {/* <ImageExample2/> */}
+        {/* 3.3. Remote Image */}
+        {/* <ImageCenter/> */}
+        {/* <ImageContain/> */}
+        {/* <ImageCover/> */}
+        {/* <ImageNone/> */}
+        {/* <ImageRepeat/> */}
+        {/* <ImageStretch/> */}
+
+      {/* 4.ImageBackground Component */}
+        <ImageBackground1/>
 
 
     </>
