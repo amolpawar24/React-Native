@@ -12,6 +12,9 @@ import ImageNone from './components/Image/Image-None';
 import ImageRepeat from './components/Image/Image-Repeat';
 import ImageStretch from './components/Image/Image-Stretch';
 import ImageBackground1 from './components/ImageBackground/ImageBackground1';
+import ImageBackground2 from './components/ImageBackground/ImageBackground2';
+import ScrollViewExmaple1 from './components/ScrollView/ScrollViewExample1';
+import ScrollViewExmaple2 from './components/ScrollView/ScrollViewExample2';
 
 export default function App() {
   return (
@@ -41,7 +44,12 @@ export default function App() {
         {/* <ImageStretch/> */}
 
       {/* 4.ImageBackground Component */}
-        <ImageBackground1/>
+        {/* <ImageBackground1/> */}
+        {/* <ImageBackground2/> */}
+
+      {/* 5.ScrollView Component */}
+        {/* <ScrollViewExmaple1/> */}
+        <ScrollViewExmaple2/>
 
 
     </>
