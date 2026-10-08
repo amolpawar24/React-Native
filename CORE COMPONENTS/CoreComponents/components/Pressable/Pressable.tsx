@@ -1,19 +1,24 @@
 import React from 'react'
-import { Image, Pressable } from 'react-native'
+import { Image, Pressable, Text, View } from 'react-native'
 
 export default function PressableExample() {
+
+    const remoteImg = "https://w0.peakpx.com/wallpaper/238/682/HD-wallpaper-fire-nature.jpg"
   return (
     <>
-        <Pressable
+        <View>
+            <Pressable
             onPress={() => {console.log("Button Is Pressed");
             }}
         >
             <Image
+                style={{height : 820, width : 400}}
                 source={{
-                    uri : "https://w0.peakpx.com/wallpaper/456/27/HD-wallpaper-nature-nature.jpg"
+                    uri : remoteImg
                 }}
             />
         </Pressable>
+        </View>
     </>
   )
 }
