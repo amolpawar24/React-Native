@@ -23,6 +23,7 @@ import ActivityIndicatorExample from './components/ActivityIndicator/ActivityInd
 import ActivityIndicatorColor from './components/ActivityIndicator/Props/Color/ActivityIndicatorColor';
 import ActivityIndicatorSize from './components/ActivityIndicator/Props/size/ActivityIndicatorSize';
 import ActivityIndicatorAnimating from './components/ActivityIndicator/Props/Animating/ActivityIndicatorAnimating';
+import AlertExample from './components/Alert/Alert';
 
 export default function App() {
   return (
@@ -75,7 +76,10 @@ export default function App() {
         {/* <ActivityIndicatorExample/> */}
         {/* <ActivityIndicatorColor/> */}
         {/* <ActivityIndicatorSize/> */}
-        <ActivityIndicatorAnimating/>
+        {/* <ActivityIndicatorAnimating/> */}
+
+      {/* 11.Alert */}
+      <AlertExample/>
 
 
     </>
