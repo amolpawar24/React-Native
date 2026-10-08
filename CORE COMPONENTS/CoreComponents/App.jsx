@@ -17,6 +17,12 @@ import ScrollViewExmaple1 from './components/ScrollView/ScrollViewExample1';
 import ScrollViewExmaple2 from './components/ScrollView/ScrollViewExample2';
 import ButttonExample from './components/Button/Buttton';
 import PressableExample from './components/Pressable/Pressable';
+import ModalExample from './components/Modal/Modal';
+import StatusBarExample from './components/StatusBar/StatusBar';
+import ActivityIndicatorExample from './components/ActivityIndicator/ActivityIndicator';
+import ActivityIndicatorColor from './components/ActivityIndicator/Props/Color/ActivityIndicatorColor';
+import ActivityIndicatorSize from './components/ActivityIndicator/Props/size/ActivityIndicatorSize';
+import ActivityIndicatorAnimating from './components/ActivityIndicator/Props/Animating/ActivityIndicatorAnimating';
 
 export default function App() {
   return (
@@ -57,7 +63,19 @@ export default function App() {
         {/* <ButttonExample/> */}
 
       {/* 7.Pressable */}
-        <PressableExample/>
+        {/* <PressableExample/> */}
+
+      {/* 8.Modal */}
+        {/* <ModalExample/> */}
+
+      {/* 9.StatusBar */}
+        {/* <StatusBarExample/> */}
+
+      {/* 10.ActivityIndicator */}
+        {/* <ActivityIndicatorExample/> */}
+        {/* <ActivityIndicatorColor/> */}
+        {/* <ActivityIndicatorSize/> */}
+        <ActivityIndicatorAnimating/>
 
 
     </>
