@@ -1,20 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import ExternalStyling from "./components/styling-types/External/External";
+import InlineStylingExample from "./components/styling-types/Inline/InlineStyling";
+import InternalStylingExample from "./components/styling-types/Internal/internalStyling";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      {/* <InlineStylingExample/> */}
+      {/* <InternalStylingExample/> */}
+      <ExternalStyling/>
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
