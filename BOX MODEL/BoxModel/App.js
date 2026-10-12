@@ -1,20 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import BorderDemo from "./components/border/BorderDemo";
+import ContentDemo from "./components/content/ContentDemo";
+import MarginDemo from "./components/margin/MarginDemo";
+import PaddingDemo from "./components/padding/PaddingDemo";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <ContentDemo/>
+      {/* <PaddingDemo/> */}
+      {/* <BorderDemo/> */}
+      {/* <MarginDemo/> */}
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
