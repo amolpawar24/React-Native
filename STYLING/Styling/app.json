@@ -3,9 +3,6 @@
     "name": "Styling",
     "slug": "Styling",
     "version": "1.0.0",
-    "android": {
-      "package": "com.amolpawar.styling"
-    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.amolpawar.styling",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
