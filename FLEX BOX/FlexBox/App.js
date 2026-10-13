@@ -43,7 +43,9 @@ export default function App() {
       {/* <JustifyContentRow3/> */}
       {/* <JustifyContentRow4/> */}
       {/* <JustifyContentRow5/> */}
-      <JustifyContentRow6/>
+      {/* <JustifyContentRow6/> */}
+
+      {/* AlignItems */}
     </>
   );
 }
