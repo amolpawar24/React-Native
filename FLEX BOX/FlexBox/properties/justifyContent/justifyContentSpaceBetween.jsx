@@ -7,7 +7,6 @@ export default function JustifyContentSpaceBetween() {
       <Box style={{ backgroundColor: "#4c4cff"}}>Box1</Box>
       <Box style={{ backgroundColor: "#ff2477"}}>Box2</Box>
       <Box style={{ backgroundColor: "#f6cd37"}}>Box3</Box>
-      <Box style={{ backgroundColor: "#098f3a" }}>Box4</Box>
     </View>
   );
 }
