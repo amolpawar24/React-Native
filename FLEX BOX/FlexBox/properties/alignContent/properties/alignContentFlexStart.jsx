@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import ContentBox from "../ContentBox";
+import ContentBox from "../../ContentBox";
 
 export default function AlignContentFlexStart() {
   return (
