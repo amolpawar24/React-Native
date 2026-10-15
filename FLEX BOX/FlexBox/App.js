@@ -1,21 +1,19 @@
 import FlexDemo from "./properties/flex/flex";
 import FlexContainer from "./properties/FlexContainer";
-import FlexDirectionColumn from "./properties/flexDirection/flexDirectionColumn";
-import FlexDirectionColumnReverse from "./properties/flexDirection/flexDirectionColumnReverse";
-import FlexDirectionRow from "./properties/flexDirection/flexDirectionRow";
-import FlexDirectionRowReverse from "./properties/flexDirection/flexDirectionRowReverse";
-import JustifyContentRow3 from "./properties/justifyContent/justifyContentRow3";
-import JustifyContentCenter from "./properties/justifyContent/justifyContentCenter";
-import JustifyContentFlexEnd from "./properties/justifyContent/justifyContentFlexEnd";
-import JustifyContentFlexStart from "./properties/justifyContent/justifyContentFlexStart";
-import JustifyContentRow1 from "./properties/justifyContent/justifyContentRow1";
-import JustifyContentRow2 from "./properties/justifyContent/justifyContentRow2";
-import JustifyContentSpaceAround from "./properties/justifyContent/justifyContentSpaceAround";
-import JustifyContentSpaceBetween from "./properties/justifyContent/justifyContentSpaceBetween";
-import JustifyContentSpaceEvenly from "./properties/justifyContent/justifyContentSpaceEvenly";
-import JustifyContentRow4 from "./properties/justifyContent/justifyContentRow4";
-import JustifyContentRow5 from "./properties/justifyContent/justifyContentRow5";
-import JustifyContentRow6 from "./properties/justifyContent/justifyContentRow6";
+import FlexDirectionColumn from "./properties/flexDirection/column/flexDirectionColumn";
+import FlexDirectionColumnReverse from "./properties/flexDirection/column/flexDirectionColumnReverse";
+import FlexDirectionRow from "./properties/flexDirection/row/flexDirectionRow";
+import FlexDirectionRowReverse from "./properties/flexDirection/row/flexDirectionRowReverse";
+
+import JustifyContentValues from "./properties/justifyContent/JustifyContentValues";
+import AlignItemsValues from "./properties/alignItems/alignItemsValues";
+import AlignSelf from "./properties/alignSelf/alignSelf";
+import FlexWrapValues from "./properties/flexWrap/flexWrapValues";
+import AlignContentValues from "./properties/alignContent/alignContentValues";
+import GapValues from "./properties/gap/gapValues";
+import FlexBasis from "./properties/flex-basis/flexBasis";
+import FlexShrink from "./properties/flexShrink/flexShrink";
+import FlexGrow from "./properties/flexGrow/flexGrow";
 
 export default function App() {
   return (
@@ -32,20 +30,31 @@ export default function App() {
       {/* <FlexDirectionRowReverse/> */}
 
       {/* JustifyContent */}
-      {/* <JustifyContentCenter/> */}
-      {/* <JustifyContentFlexStart/> */}
-      {/* <JustifyContentFlexEnd/> */}
-      {/* <JustifyContentSpaceBetween/> */}
-      {/* <JustifyContentSpaceAround/> */}
-      {/* <JustifyContentSpaceEvenly/> */}
-      {/* <JustifyContentRow1/> */}
-      {/* <JustifyContentRow2/> */}
-      {/* <JustifyContentRow3/> */}
-      {/* <JustifyContentRow4/> */}
-      {/* <JustifyContentRow5/> */}
-      {/* <JustifyContentRow6/> */}
+      {/* <JustifyContentValues/> */}
 
       {/* AlignItems */}
+        {/* <AlignItemsValues/> */}
+
+      {/* AlignSelf */}
+      {/* <AlignSelf/> */}
+      {/* FlexWrap */}
+      {/* <FlexWrapValues/> */}
+
+      {/* AlignContent */}
+      {/* <AlignContentValues/> */}
+
+      {/* Gap */}
+      {/* <GapValues/> */}
+
+      {/* Flex Basis */}
+      {/* <FlexBasis/> */}
+
+      {/* Flex Shrink */}
+      {/* <FlexShrink/> */}
+
+      {/* Flex Grow */}
+      <FlexGrow/>
+
     </>
   );
 }
