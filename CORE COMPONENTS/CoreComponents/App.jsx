@@ -24,6 +24,9 @@ import ActivityIndicatorColor from './components/ActivityIndicator/Props/Color/A
 import ActivityIndicatorSize from './components/ActivityIndicator/Props/size/ActivityIndicatorSize';
 import ActivityIndicatorAnimating from './components/ActivityIndicator/Props/Animating/ActivityIndicatorAnimating';
 import AlertExample from './components/Alert/Alert';
+import WithoutSafeAreaView from './components/SafeAreaView/WithoutSafeAreaView';
+import SafeAreaViewComponent from './components/SafeAreaView/SafeAreaViewComponent';
+import SafeAreaContext from './components/SafeAreaView/SafeAreaContext';
 
 export default function App() {
   return (
@@ -79,7 +82,12 @@ export default function App() {
         {/* <ActivityIndicatorAnimating/> */}
 
       {/* 11.Alert */}
-      <AlertExample/>
+      {/* <AlertExample/> */}
+
+      {/* 12.SafeAreaView */}
+      {/* <WithoutSafeAreaView/> */}
+      {/* <SafeAreaViewComponent/> */}
+      <SafeAreaContext/>
 
 
     </>
