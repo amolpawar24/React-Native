@@ -1,20 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import PlatformOSCheck from "./components/platformOS/platformOSCheck";
+import PlatformOSIfElse from "./components/platformOS/platformOSIfElse";
+import PlatformOSusingTernary from "./components/platformOS/platformOSusingTernary";
+import PlatformSelect from "./components/platformSelect/platformSelect";
+import PlatformSpecificFilesDemo from "./components/platfromSpecificFiles/platformSpecificFilesDemo";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    <>
+      {/* <PlatformOSCheck/> */}
+      {/* <PlatformOSusingTernary/> */}
+      {/* <PlatformSelect/> */}
+      {/* <PlatformOSIfElse/> */}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+      {/* Platform Specific Files */}
+      <PlatformSpecificFilesDemo/>
+    </>
+  )
+}
