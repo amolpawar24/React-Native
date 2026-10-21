@@ -1,0 +1,62 @@
+[
+  {
+    "type": "Grass",
+    "data": ["Bulbasaur", "Ivysaur", "Venusaur", "Oddish", "Gloom", "Vileplume", "Bellsprout", "Weepinbell", "Victreebel"]
+  },
+  {
+    "type": "Fire",
+    "data": ["Charmander", "Charmeleon", "Charizard", "Vulpix", "Ninetales", "Growlithe", "Arcanine", "Ponyta", "Rapidash", "Magmar"]
+  },
+  {
+    "type": "Water",
+    "data": ["Squirtle", "Wartortle", "Blastoise", "Psyduck", "Golduck", "Poliwag", "Poliwhirl", "Poliwrath", "Tentacool", "Magikarp"]
+  },
+  {
+    "type": "Electric",
+    "data": ["Pikachu", "Raichu", "Magnemite", "Magneton", "Voltorb", "Electrode", "Electabuzz", "Jolteon", "Zapdos"]
+  },
+  {
+    "type": "Psychic",
+    "data": ["Abra", "Kadabra", "Alakazam", "Drowzee", "Hypno", "Exeggcute", "Exeggutor", "Slowpoke", "Slowbro", "Mewtwo"]
+  },
+  {
+    "type": "Ground",
+    "data": ["Sandshrew", "Sandslash", "Diglett", "Dugtrio", "Cubone", "Marowak", "Rhyhorn", "Rhydon"]
+  },
+  {
+    "type": "Rock",
+    "data": ["Geodude", "Graveler", "Golem", "Onix", "Rhyhorn", "Rhydon", "Omanyte", "Omastar", "Kabuto", "Kabutops", "Aerodactyl"]
+  },
+  {
+    "type": "Ice",
+    "data": ["Dewgong", "Cloyster", "Jynx", "Lapras", "Articuno"]
+  },
+  {
+    "type": "Fighting",
+    "data": ["Mankey", "Primeape", "Machop", "Machoke", "Machamp", "Hitmonlee", "Hitmonchan", "Poliwrath"]
+  },
+  {
+    "type": "Poison",
+    "data": ["Ekans", "Arbok", "Nidoran♀", "Nidorina", "Nidoqueen", "Nidoran♂", "Nidorino", "Nidoking", "Zubat", "Golbat", "Grimer", "Muk"]
+  },
+  {
+    "type": "Normal",
+    "data": ["Pidgey", "Pidgeotto", "Pidgeot", "Rattata", "Raticate", "Jigglypuff", "Wigglytuff", "Meowth", "Persian", "Eevee", "Snorlax"]
+  },
+  {
+    "type": "Bug",
+    "data": ["Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Paras", "Parasect", "Venonat", "Venomoth", "Scyther"]
+  },
+  {
+    "type": "Flying",
+    "data": ["Pidgey", "Pidgeotto", "Pidgeot", "Spearow", "Fearow", "Zubat", "Golbat", "Doduo", "Dodrio", "Farfetch'd", "Aerodactyl"]
+  },
+  {
+    "type": "Ghost",
+    "data": ["Gastly", "Haunter", "Gengar"]
+  },
+  {
+    "type": "Dragon",
+    "data": ["Dratini", "Dragonair", "Dragonite"]
+  }
+]
