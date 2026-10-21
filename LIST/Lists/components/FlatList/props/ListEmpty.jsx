@@ -14,7 +14,6 @@ export default function ListEmpty() {
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        data={playersList}
         keyExtractor={(item) => String(item.id)}
         renderItem={({ item }) => {
             return <View style={styles?.card}>
@@ -24,7 +23,7 @@ export default function ListEmpty() {
         }}
         ItemSeparatorComponent={<View style={{height: 16}}/>}
         contentContainerStyle={styles.list}
-        ListEmptyComponent={<Text>No Data Found</Text>}
+        ListEmptyComponent={<Text style={{fontSize: 15}}>No Data Found</Text>}
       />
     </SafeAreaView>
   );
