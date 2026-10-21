@@ -11,7 +11,7 @@ export default function Scrollview() {
           {playerList.map((player) => {
             return (
               <>
-                <View key={player.id} style={styles.card}>
+                <View key={player?.id} style={styles.card}>
                   <Text style={styles.cardText}>Name:- {player.name}</Text>
                   <Text style={styles.cardText}>Role:- {player.role}</Text>
                 </View>
