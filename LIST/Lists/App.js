@@ -1,15 +1,20 @@
 import FlatList from "./components/FlatList/FlatList";
 import FlatListProps from "./components/FlatList/FlatListIndex";
 import Scrollview from "./components/ScrollView/index.Scrollview";
+import SectionListComponent from "./components/SectionList/SectionList";
 
 export default function App() {
   return (
     <>
       {/* 1.ScrollView List */}
         {/* <Scrollview/> */}
+
       {/* 2.FlatList */}
       {/* <FlatList/> */}
-        <FlatListProps/>
+        {/* <FlatListProps/> */}
+
+      {/* 3.SectionList */}
+      <SectionListComponent/>
     </>
   );
 }
