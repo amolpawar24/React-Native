@@ -44,11 +44,15 @@ import HideVerticalIndicator from "./components/ScrollView/Props/HideVerticalInd
 import HorizontalScroll from "./components/ScrollView/Props/HorizontalScroll";
 import NestedScroll from "./components/ScrollView/Props/NestedScroll";
 import PagingEnabled from "./components/ScrollView/Props/PagingEnabled";
-import ScrollToTop from "./components/ScrollView/props/ScrollToTop";
+import ScrollToTop from "./components/ScrollView/Props/ScrollToTop";
 import VerticalScroll from "./components/ScrollView/Props/VerticalScroll";
 import ScrollViewComponent1 from "./components/ScrollView/ScrollViewComponent1";
 import ScrollViewComponent2 from "./components/ScrollView/ScrollViewComponent2";
 import ScrollViewTask1 from "./components/ScrollView/Tasks/ScrollViewTask1";
+import StatusBarAnimated from "./components/StatusBar/Props/StatusBarAnimated";
+import StatusBarBackgroundColor from "./components/StatusBar/Props/StatusBarBackgroundColor";
+import StatusBarHidden from "./components/StatusBar/Props/StatusBarHidden";
+import StatusBarTranslucent from "./components/StatusBar/Props/StatusBarTranslucent";
 import NestingTextComponent from "./components/Text/NestingTextComponent";
 import TextComponent1 from "./components/Text/TextComponent1";
 import TextComponent2 from "./components/Text/TextComponent2";
@@ -136,7 +140,13 @@ export default function App() {
           {/* <AlertExample/> */}
         
         {/* 10. StatusBar */}
-          <StatusBarExample/>
+          {/* <StatusBarExample/> */}
+          {/* <StatusBarBackgroundColor/> */}
+          {/* <StatusBarHidden/> */}
+          {/* <StatusBarTranslucent/> */}
+          {/* <StatusBarAnimated/> */}
+
+        {/* 11.ActivityIndicator Component */}
     </>
   );
 }
