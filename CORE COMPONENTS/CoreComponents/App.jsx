@@ -9,6 +9,7 @@ import NoneImage from "./components/Image/ResizeModes/NoneImage";
 import RepeatImage from "./components/Image/ResizeModes/RepeatImage";
 import StretchImage from "./components/Image/ResizeModes/StretchImage";
 import StaticImage from "./components/Image/Static/StaticImage";
+import LocalBackground from "./components/ImageBackground/LocalBackground";
 import NestingTextComponent from "./components/Text/NestingTextComponent";
 import TextComponent1 from "./components/Text/TextComponent1";
 import TextComponent2 from "./components/Text/TextComponent2";
@@ -45,6 +46,7 @@ export default function App() {
           {/* <StretchImage/> */}
 
         {/* 4.ImageBackground Component */}
+          {/* <LocalBackground/> */}
     </>
   );
 }
