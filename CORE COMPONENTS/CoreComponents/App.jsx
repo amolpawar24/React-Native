@@ -1,3 +1,8 @@
+import LocalImage from "./components/Image/Local/LocalImage";
+import LocalImage1 from "./components/Image/Local/LocalImage1";
+import RemoteImage1 from "./components/Image/Remote/RemoteImage1";
+import RemoteImage2 from "./components/Image/Remote/RemoteImage2";
+import StaticImage from "./components/Image/Static/StaticImage";
 import NestingTextComponent from "./components/Text/NestingTextComponent";
 import TextComponent1 from "./components/Text/TextComponent1";
 import TextComponent2 from "./components/Text/TextComponent2";
@@ -18,7 +23,14 @@ export default function App() {
           {/* <TextErrorDemo/> */}
           {/* <TextComponent1/> */}
           {/* <TextComponent2/> */}
-          <NestingTextComponent/>
+          {/* <NestingTextComponent/> */}
+
+        {/* 3.Image Component */}
+          {/* <StaticImage/> */}
+          {/* <LocalImage/> */}
+          <LocalImage1/>
+          {/* <RemoteImage1/> */}
+          {/* <RemoteImage2/> */}
     </>
   );
 }
