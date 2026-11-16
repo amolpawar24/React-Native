@@ -1,3 +1,5 @@
+import StatusBarExample from "../../CORE COMPONENTS 1/CoreComponents/components/StatusBar/StatusBar";
+import AlertExample from "./components/Alert/Alert";
 import ButtonComponent from "./components/Button/ButtonComponent";
 import ButtonWithAlert from "./components/Button/ButtonWithAlert";
 import ButtonWithState from "./components/Button/ButtonWithState";
@@ -128,7 +130,13 @@ export default function App() {
           {/* <ModalAnimationType/> */}
           {/* <ModalOnRequestClose/> */}
           {/* <ModalOnShow/> */}
-          <ModalOnDismiss/>
+          {/* <ModalOnDismiss/> */}
+
+        {/* 9. Alert Component */}
+          {/* <AlertExample/> */}
+        
+        {/* 10. StatusBar */}
+          <StatusBarExample/>
     </>
   );
 }
