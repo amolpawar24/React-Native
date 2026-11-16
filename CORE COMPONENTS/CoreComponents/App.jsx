@@ -2,6 +2,12 @@ import LocalImage from "./components/Image/Local/LocalImage";
 import LocalImage1 from "./components/Image/Local/LocalImage1";
 import RemoteImage1 from "./components/Image/Remote/RemoteImage1";
 import RemoteImage2 from "./components/Image/Remote/RemoteImage2";
+import CenterImage from "./components/Image/ResizeModes/CenterImage";
+import ContainImage from "./components/Image/ResizeModes/ContainImage";
+import CoverImage from "./components/Image/ResizeModes/CoverImage";
+import NoneImage from "./components/Image/ResizeModes/NoneImage";
+import RepeatImage from "./components/Image/ResizeModes/RepeatImage";
+import StretchImage from "./components/Image/ResizeModes/StretchImage";
 import StaticImage from "./components/Image/Static/StaticImage";
 import NestingTextComponent from "./components/Text/NestingTextComponent";
 import TextComponent1 from "./components/Text/TextComponent1";
@@ -28,9 +34,17 @@ export default function App() {
         {/* 3.Image Component */}
           {/* <StaticImage/> */}
           {/* <LocalImage/> */}
-          <LocalImage1/>
+          {/* <LocalImage1/> */}
           {/* <RemoteImage1/> */}
           {/* <RemoteImage2/> */}
+          {/* <CenterImage/> */}
+          {/* <ContainImage/> */}
+          {/* <CoverImage/> */}
+          {/* <NoneImage/> */}
+          {/* <RepeatImage/> */}
+          {/* <StretchImage/> */}
+
+        {/* 4.ImageBackground Component */}
     </>
   );
 }
