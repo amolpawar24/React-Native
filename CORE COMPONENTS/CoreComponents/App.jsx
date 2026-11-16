@@ -1,4 +1,8 @@
-import StatusBarExample from "../../CORE COMPONENTS 1/CoreComponents/components/StatusBar/StatusBar";
+import BasicActivityIndicator from "./components/ActivityIndicator/BasicActivityIndicator";
+import ActivityIndicatorAnimating from "./components/ActivityIndicator/Props/ActivityIndicatorAnimating";
+import ActivityIndicatorColor from "./components/ActivityIndicator/Props/ActivityIndicatorColor";
+import ActivityIndicatorHidesWhenStopped from "./components/ActivityIndicator/Props/ACtivityIndicatorHidesWhenStopped";
+import ActivityIndicatorSize from "./components/ActivityIndicator/Props/ActivityIndicatorSize";
 import AlertExample from "./components/Alert/Alert";
 import ButtonComponent from "./components/Button/ButtonComponent";
 import ButtonWithAlert from "./components/Button/ButtonWithAlert";
@@ -38,6 +42,10 @@ import PressableOnLongPress from "./components/Pressable/Props/PressableOnLongPr
 import PressableOnPress from "./components/Pressable/Props/PressableOnPress";
 import PressableOnPressIn from "./components/Pressable/Props/PressableOnPressIn";
 import PressableOnPressOut from "./components/Pressable/Props/PressableOnPressOut";
+import BasicSafeAreaView from "./components/SafeAreaView/BasicSafeAreaView";
+import SafeAreaViewEdges from "./components/SafeAreaView/Props/SafeAreaViewEdges";
+import SafeAreaViewMode from "./components/SafeAreaView/Props/SafeAreaViewMode";
+import SafeAreaViewOnLayout from "./components/SafeAreaView/Props/SafeAreaViewOnLayout";
 import DisableScroll from "./components/ScrollView/Props/DisableScroll";
 import HideHorizontalIndicator from "./components/ScrollView/Props/HideHorizontalIndicator";
 import HideVerticalIndicator from "./components/ScrollView/Props/HideVerticalIndicator";
@@ -49,6 +57,7 @@ import VerticalScroll from "./components/ScrollView/Props/VerticalScroll";
 import ScrollViewComponent1 from "./components/ScrollView/ScrollViewComponent1";
 import ScrollViewComponent2 from "./components/ScrollView/ScrollViewComponent2";
 import ScrollViewTask1 from "./components/ScrollView/Tasks/ScrollViewTask1";
+import BasicStatusBar from "./components/StatusBar/BasicStatusBar";
 import StatusBarAnimated from "./components/StatusBar/Props/StatusBarAnimated";
 import StatusBarBackgroundColor from "./components/StatusBar/Props/StatusBarBackgroundColor";
 import StatusBarHidden from "./components/StatusBar/Props/StatusBarHidden";
@@ -140,13 +149,24 @@ export default function App() {
           {/* <AlertExample/> */}
         
         {/* 10. StatusBar */}
-          {/* <StatusBarExample/> */}
+          {/* <BasicStatusBar/> */}
           {/* <StatusBarBackgroundColor/> */}
           {/* <StatusBarHidden/> */}
           {/* <StatusBarTranslucent/> */}
           {/* <StatusBarAnimated/> */}
 
         {/* 11.ActivityIndicator Component */}
+          {/* <BasicActivityIndicator/> */}
+          {/* <ActivityIndicatorAnimating/> */}
+          {/* <ActivityIndicatorColor/> */}
+          {/* <ActivityIndicatorSize/> */}
+          {/* <ActivityIndicatorHidesWhenStopped/> */}
+
+        {/* 12. SafeAreaView */}
+          {/* <BasicSafeAreaView/> */}
+          {/* <SafeAreaViewEdges/> */}
+          {/* <SafeAreaViewMode/> */}
+          <SafeAreaViewOnLayout/>
     </>
   );
 }
