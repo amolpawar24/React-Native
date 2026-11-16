@@ -19,6 +19,14 @@ import RepeatImage from "./components/Image/ResizeModes/RepeatImage";
 import StretchImage from "./components/Image/ResizeModes/StretchImage";
 import StaticImage from "./components/Image/Static/StaticImage";
 import LocalBackground from "./components/ImageBackground/LocalBackground";
+import BasicModal from "./components/Modal/BasicModal";
+import ModalAnimationType from "./components/Modal/Props/ModalAnimationType";
+import ModalOnDismiss from "./components/Modal/Props/ModalOnDismiss";
+import ModalOnRequestClose from "./components/Modal/Props/ModalOnRequestClose";
+import ModalOnShow from "./components/Modal/Props/ModalOnShow";
+import ModalTransparent from "./components/Modal/Props/ModalTransparent";
+import ModalVisible from "./components/Modal/Props/ModalVisible";
+import TransparentModal from "./components/Modal/TransparentModal";
 import BasicPressable from "./components/Pressable/BasicPressable";
 import PressableWithImage from "./components/Pressable/PressableWithImage";
 import PressableDelayLongPress from "./components/Pressable/Props/PressableDelayLongPress";
@@ -34,7 +42,7 @@ import HideVerticalIndicator from "./components/ScrollView/Props/HideVerticalInd
 import HorizontalScroll from "./components/ScrollView/Props/HorizontalScroll";
 import NestedScroll from "./components/ScrollView/Props/NestedScroll";
 import PagingEnabled from "./components/ScrollView/Props/PagingEnabled";
-import ScrollToTop from "./components/ScrollView/Props/ScrollToTop";
+import ScrollToTop from "./components/ScrollView/props/ScrollToTop";
 import VerticalScroll from "./components/ScrollView/Props/VerticalScroll";
 import ScrollViewComponent1 from "./components/ScrollView/ScrollViewComponent1";
 import ScrollViewComponent2 from "./components/ScrollView/ScrollViewComponent2";
@@ -110,8 +118,17 @@ export default function App() {
           {/* <PressableOnPressOut/> */}
           {/* <PressableDisabled/> */}
           {/* <PressableHitSlop/> */}
-          <PressableDelayLongPress/>
+          {/* <PressableDelayLongPress/> */}
 
+        {/* 8. Modal Component */}
+          {/* <BasicModal/> */}
+          {/* <TransparentModal/> */}
+          {/* <ModalVisible/> */}
+          {/* <ModalTransparent/> */}
+          {/* <ModalAnimationType/> */}
+          {/* <ModalOnRequestClose/> */}
+          {/* <ModalOnShow/> */}
+          <ModalOnDismiss/>
     </>
   );
 }
