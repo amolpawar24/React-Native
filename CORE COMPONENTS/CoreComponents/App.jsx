@@ -10,6 +10,17 @@ import RepeatImage from "./components/Image/ResizeModes/RepeatImage";
 import StretchImage from "./components/Image/ResizeModes/StretchImage";
 import StaticImage from "./components/Image/Static/StaticImage";
 import LocalBackground from "./components/ImageBackground/LocalBackground";
+import DisableScroll from "./components/ScrollView/props/DisableScroll";
+import HideHorizontalIndicator from "./components/ScrollView/props/HideHorizontalIndicator";
+import HideVerticalIndicator from "./components/ScrollView/props/HideVerticalIndicator";
+import HorizontalScroll from "./components/ScrollView/props/HorizontalScroll";
+import NestedScroll from "./components/ScrollView/props/NestedScroll";
+import PagingEnabled from "./components/ScrollView/props/PagingEnabled";
+import ScrollToTop from "./components/ScrollView/props/ScrollToTop";
+import VerticalScroll from "./components/ScrollView/props/VerticalScroll";
+import ScrollViewComponent1 from "./components/ScrollView/ScrollViewComponent1";
+import ScrollViewComponent2 from "./components/ScrollView/ScrollViewComponent2";
+import ScrollViewTask1 from "./components/ScrollView/Tasks/ScrollViewTask1";
 import NestingTextComponent from "./components/Text/NestingTextComponent";
 import TextComponent1 from "./components/Text/TextComponent1";
 import TextComponent2 from "./components/Text/TextComponent2";
@@ -47,6 +58,19 @@ export default function App() {
 
         {/* 4.ImageBackground Component */}
           {/* <LocalBackground/> */}
+        
+        {/* 5.ScrollView Component */}
+          {/* <ScrollViewComponent1/> */}
+          {/* <ScrollViewComponent2/> */}
+          {/* <ScrollViewTask1/> */}
+          {/* <VerticalScroll/> */}
+          {/* <HorizontalScroll/> */}
+          {/* <NestedScroll/> */}
+          {/* <HideVerticalIndicator/> */}
+          {/* <HideHorizontalIndicator/> */}
+          {/* <DisableScroll/> */}
+          {/* <ScrollToTop/> */}
+          <PagingEnabled/>
     </>
   );
 }
