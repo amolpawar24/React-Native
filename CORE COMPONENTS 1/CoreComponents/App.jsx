@@ -23,7 +23,7 @@ import ActivityIndicatorExample from './components/ActivityIndicator/ActivityInd
 import ActivityIndicatorColor from './components/ActivityIndicator/Props/Color/ActivityIndicatorColor';
 import ActivityIndicatorSize from './components/ActivityIndicator/Props/size/ActivityIndicatorSize';
 import ActivityIndicatorAnimating from './components/ActivityIndicator/Props/Animating/ActivityIndicatorAnimating';
-import AlertExample from './components/Alert/Alert';
+import AlertExample from '../../CORE COMPONENTS/CoreComponents/components/Alert/Alert';
 import WithoutSafeAreaView from './components/SafeAreaView/WithoutSafeAreaView';
 import SafeAreaViewComponent from './components/SafeAreaView/SafeAreaViewComponent';
 import SafeAreaContext from './components/SafeAreaView/SafeAreaContext';
