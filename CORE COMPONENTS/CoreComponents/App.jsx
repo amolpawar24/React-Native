@@ -19,6 +19,15 @@ import RepeatImage from "./components/Image/ResizeModes/RepeatImage";
 import StretchImage from "./components/Image/ResizeModes/StretchImage";
 import StaticImage from "./components/Image/Static/StaticImage";
 import LocalBackground from "./components/ImageBackground/LocalBackground";
+import BasicPressable from "./components/Pressable/BasicPressable";
+import PressableWithImage from "./components/Pressable/PressableWithImage";
+import PressableDelayLongPress from "./components/Pressable/Props/PressableDelayLongPress";
+import PressableDisabled from "./components/Pressable/Props/PressableDisabled";
+import PressableHitSlop from "./components/Pressable/Props/PressableHitSlop";
+import PressableOnLongPress from "./components/Pressable/Props/PressableOnLongPress";
+import PressableOnPress from "./components/Pressable/Props/PressableOnPress";
+import PressableOnPressIn from "./components/Pressable/Props/PressableOnPressIn";
+import PressableOnPressOut from "./components/Pressable/Props/PressableOnPressOut";
 import DisableScroll from "./components/ScrollView/props/DisableScroll";
 import HideHorizontalIndicator from "./components/ScrollView/props/HideHorizontalIndicator";
 import HideVerticalIndicator from "./components/ScrollView/props/HideVerticalIndicator";
@@ -90,7 +99,18 @@ export default function App() {
           {/* <ButtonColor/> */}
           {/* <ButtonDisabled/> */}
           {/* <ButtonAccessibility/> */}
-          <ButtonOnPress/>
+          {/* <ButtonOnPress/> */}
+        
+        {/* 7.Pressable Component */}
+          {/* <PressableWithImage/> */}
+          {/* <BasicPressable/> */}
+          {/* <PressableOnPress/> */}
+          {/* <PressableOnLongPress/> */}
+          {/* <PressableOnPressIn/> */}
+          {/* <PressableOnPressOut/> */}
+          {/* <PressableDisabled/> */}
+          {/* <PressableHitSlop/> */}
+          <PressableDelayLongPress/>
 
     </>
   );
