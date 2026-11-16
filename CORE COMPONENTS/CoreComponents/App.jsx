@@ -1,3 +1,12 @@
+import ButtonComponent from "./components/Button/ButtonComponent";
+import ButtonWithAlert from "./components/Button/ButtonWithAlert";
+import ButtonWithState from "./components/Button/ButtonWithState";
+import MultipleButtons from "./components/Button/MultipleButtons";
+import ButtonAccessibility from "./components/Button/props/ButtonAccessibility";
+import ButtonColor from "./components/Button/props/ButtonColor";
+import ButtonDisabled from "./components/Button/props/ButtonDisabled";
+import ButtonOnPress from "./components/Button/props/ButtonOnPress";
+import ButtonTitle from "./components/Button/props/ButtonTitle";
 import LocalImage from "./components/Image/Local/LocalImage";
 import LocalImage1 from "./components/Image/Local/LocalImage1";
 import RemoteImage1 from "./components/Image/Remote/RemoteImage1";
@@ -70,7 +79,19 @@ export default function App() {
           {/* <HideHorizontalIndicator/> */}
           {/* <DisableScroll/> */}
           {/* <ScrollToTop/> */}
-          <PagingEnabled/>
+          {/* <PagingEnabled/> */}
+
+        {/* 6.Button Component */}
+          {/* <ButtonComponent/> */}
+          {/* <ButtonWithAlert/> */}
+          {/* <MultipleButtons/> */}
+          {/* <ButtonWithState/> */}
+          {/* <ButtonTitle/> */}
+          {/* <ButtonColor/> */}
+          {/* <ButtonDisabled/> */}
+          {/* <ButtonAccessibility/> */}
+          <ButtonOnPress/>
+
     </>
   );
 }
