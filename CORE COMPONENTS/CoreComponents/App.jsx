@@ -165,8 +165,9 @@ export default function App() {
         {/* 12. SafeAreaView */}
           {/* <BasicSafeAreaView/> */}
           {/* <SafeAreaViewEdges/> */}
-          {/* <SafeAreaViewMode/> */}
-          <SafeAreaViewOnLayout/>
+          {/* <SafeAreaViewMode/>
+           */}
+          {/* <SafeAreaViewOnLayout/> */}
     </>
   );
 }
