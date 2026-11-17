@@ -5,12 +5,12 @@ import {
   ActivityIndicator,
   Alert,
   Button,
-  SafeAreaView,
   StyleSheet,
   Text,
   TextInput,
   View,
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function PostRequestByFetch() {
   // States
