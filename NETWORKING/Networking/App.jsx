@@ -7,8 +7,8 @@ export default function App() {
     <>
       {/* 1. Fetch API */}
         {/* <GetRequestByFetch/> */}
-        {/* <PostRequestByFetch/> */}
-        <PullToRefresh/>
+        <PostRequestByFetch/>
+        {/* <PullToRefresh/> */}
     </>
   );
 }
