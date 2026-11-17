@@ -12,7 +12,7 @@ import {
 
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function GetRequestDemo() {
+export default function GetRequestByFetch() {
   // States
   const [postLists, setPostLists] = useState([]);
   const [loading, setLoading] = useState(true);
