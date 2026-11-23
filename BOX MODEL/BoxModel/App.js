@@ -1,5 +1,6 @@
 import BorderDemo from './components/border/BorderDemo';
 import ContentDemo from './components/content/ContentDemo';
+import MarginDemo from './components/margin/MarginDemo';
 import PaddingDemo from './components/padding/PaddingDemo';
 
 export default function App() {
@@ -12,7 +13,10 @@ export default function App() {
         {/* <BorderDemo/> */}
 
       {/* 3. Padding Demo */}
-        <PaddingDemo/>
+        {/* <PaddingDemo/> */}
+      
+      {/* 4. Margin Demo */}
+        <MarginDemo/>
     </>
   );
 }
