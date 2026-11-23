@@ -14,8 +14,22 @@ export default function PaddingDemo() {
 }
 
 const  styles = StyleSheet.create({
-   
-    container: {},
-    box: {},
-    text: {}
+    container: {
+        flex: 1,
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    box: {
+        width: 120,
+        height: 120,
+        backgroundColor: "skyblue",
+        padding: 20,
+        margin: 10,
+        borderColor: "blue",
+        borderWidth: 2
+    },
+    text: {
+        color: "black"
+    }
 })
