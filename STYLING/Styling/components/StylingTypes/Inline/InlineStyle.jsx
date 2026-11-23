@@ -1,7 +1,13 @@
-import React from 'react'
+import { View, Text} from 'react-native'
 
 export default function InlineStyle() {
+
   return (
-    <div>InlineStyle</div>
+
+    <View>
+      <Text>
+        Inline Styling Example
+      </Text>
+    </View>
   )
 }
