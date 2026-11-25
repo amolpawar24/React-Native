@@ -1,4 +1,5 @@
-import NativeStackNavigator from "./Navigation/Stack Navigation/NativeStackNavigator/NativeStackNavigator";
+import { PassingTheDataBetweenScreen } from "./components/PassingDataBetweenScreens/PassingTheDataBetweemScreens";
+import NativeStackNavigator from "./Navigation/Types/Stack Navigation/NativeStackNavigator/NativeStackNavigator";
 
 export default function App() {
 
@@ -6,7 +7,11 @@ export default function App() {
 
     <>
       {/* 1.Native Stack Navigator */}
-        <NativeStackNavigator/>
+        {/* <NativeStackNavigator/> */}
+
+      {/* Passing the data between the screens */}
+        <PassingTheDataBetweenScreen/>
+
     </>
 
   );
