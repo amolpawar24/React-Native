@@ -1,10 +1,11 @@
-import NativeStackNavigator from "./components/Stack Navigation/NativeStackNavigator/NativeStackNavigator";
+import NativeStackNavigator from "./Navigation/Stack Navigation/NativeStackNavigator/NativeStackNavigator";
 
 export default function App() {
 
   return (
 
     <>
+      {/* 1.Native Stack Navigator */}
         <NativeStackNavigator/>
     </>
 
