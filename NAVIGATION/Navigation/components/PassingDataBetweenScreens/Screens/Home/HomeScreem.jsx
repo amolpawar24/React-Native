@@ -2,10 +2,17 @@ import { Button, StyleSheet } from "react-native";
 import { Text, View } from "react-native";
 
 
-export default function HomeScreen({ navigation }){
+export default function HomeScreen({ navigation, route }){
+    console.log("🚀 ~ HomeScreen ~ route:", route)
+
+    const {result} = route?.params;
+
+
+
     return(
         <View style={Styles.container}>
             <Text style={Styles.text}>Home Screen</Text>
+            <Text>{result}</Text>
             <Button title="Go to the About" onPress={() =>{ navigation.navigate("About", {
                 name: "Amol Pawar"
             })}}/>

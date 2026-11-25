@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 export function PassingTheDataBetweenScreen() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName="About">
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="About" component={AboutScreen} initialParams={{DefVal : "DefaultValue"}}/>
       </Stack.Navigator>
