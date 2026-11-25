@@ -3,12 +3,15 @@ import { Text, View } from "react-native";
 
 
 export function AboutScreen({route}){
-    console.log("🚀 ~ AboutScreen ~ route:", route)
+
+    // Destrcturing the props
+    const { name, DefVal } = route.params
 
     return(
         <View style={Styles.container}>
             <Text style={Styles.text}>About Screen</Text>
-            <Text>{route?.params?.name}</Text>
+            <Text>{name}</Text>
+            <Text>{DefVal}</Text>
         </View>
     )
 }

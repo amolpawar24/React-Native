@@ -12,7 +12,7 @@ export function PassingTheDataBetweenScreen() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="About" component={AboutScreen}/>
+        <Stack.Screen name="About" component={AboutScreen} initialParams={{DefVal : "DefaultValue"}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
